@@ -1,0 +1,23 @@
+.adherentContainer{
+    margin:50px 0px 50px 0px;
+}
+.adherentWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.adherentContainer h1{
+    text-align: center;
+    font-size: 60px;
+}
+.adherentWrapper .adherentItems{
+    margin:50px 10%;
+    font-size: 25px;
+}
+@media only screen and (max-width:600px) {
+    .adherentWrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}

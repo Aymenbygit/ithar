@@ -1,0 +1,47 @@
+.videoContainer{
+    background-color: whitesmoke
+}
+.videoWrapper{
+    display: flex;
+}
+.Ytvideo{
+    width: 823px;
+    height: 600px;
+}
+.grid-container-video{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+.grid-container-video .right h1{
+    margin: 60px 80px 50px 50px;
+    /* color :white */
+}
+.grid-container-video .right p{
+    margin: 0px 80px 0px 30px;
+    font-size: 20px;
+    /* color :white; */
+    text-align: justify;
+}
+.grid-container-video .right button{
+    margin: 20px 80px 0px 30px;
+    padding: 10px 25px;
+    font-size: 20px;
+    background-color: black;
+}
+
+@media only screen and (max-width:1024px){
+    .videoWrapper{
+        display: inline;
+    }
+    .grid-container-video{
+        display: inline;
+    }
+    .Ytvideo{
+        margin-top: 20px;
+        width: 100% !important;
+        height: 250px !important;
+    }
+    .grid-container-video .right p{
+        margin: 0px 35px 0px 35px;
+    }
+}

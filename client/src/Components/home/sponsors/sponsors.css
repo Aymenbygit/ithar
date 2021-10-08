@@ -1,0 +1,38 @@
+.sponsorsContainer{
+    margin: 100px 20px;
+    color: black;
+}
+.sponsorsWrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sponsorsWrapper h2{
+    margin-top: 15px;
+    text-decoration: underline;
+}
+.sponsorsWrapper span{
+    text-align: center;
+    font-size: 25px;
+}
+.sponsorsWrapper img{
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+@media only screen and (max-width:600px){
+    .sponsorsWrapper{
+        display: inline;
+        text-align: center;
+    }
+    .sponsorsWrapper img{
+        text-align: center;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 50px
+    }
+    .sponsorsWrapper h2{
+        margin-bottom: 50px;
+    }
+}

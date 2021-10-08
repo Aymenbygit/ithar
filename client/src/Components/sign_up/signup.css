@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+.SignUpContainer{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.login .title{
+    text-align: center;
+}
+.login .SignLink{
+    color: #90b957;
+}
+.login .logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.login input{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.login label{
+    width: 100%;
+    font-size: 15px;
+}
+.login-button{
+    background-color: rgb(0, 255, 149);
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .SignUpContainer{
+        width: 300px;
+    }
+}
